@@ -17,6 +17,13 @@ function UploadImages() {
         )
         setSelectedFileList(result)
     }
+
+    const UploadImages=()=>{
+     selectedFileList.forEach((file)=>{
+        const fileName=Date.now()+'jpeg';
+        const storageRef=ref(storage,)
+     })
+    }
         
     
     useEffect(() => {
